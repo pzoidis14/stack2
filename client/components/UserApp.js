@@ -3,12 +3,12 @@ import { DisplayTodos, CreateTodoBtn } from './Components';
 import Contract from 'truffle-contract';
 import ToDoListContract from '../build/contracts/TodoList.json';
 
-import './css/oswald.css';
-import './css/open-sans.css';
-import './css/pure-min.css';
-import './App.css';
+import '../css/oswald.css';
+import '../css/open-sans.css';
+import '../css/pure-min.css';
+import '../css/App.css';
 
-class App extends Component {
+class UserApp extends Component {
   constructor(props) {
     super(props);
 
@@ -88,4 +88,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default UserApp;
